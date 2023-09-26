@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className='bg-slate-100'>
         <div className='relative h-screen'>
-        <div className='absolute h-20 w-full top-0 left-0'>
+        <div className='absolute h-16 w-full top-0 left-0'>
           <Navbar/>
         </div>
         <div className='container mx-auto p-2 h-full pt-20 overflow-hidden'>
