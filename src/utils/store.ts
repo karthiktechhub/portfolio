@@ -14,8 +14,8 @@ export const longlines = [
 ]
 
 export const menuData = {
-    Home:'Home',
-    About:'About',
-    Work:'Work',
-    Contact:'Contact me'
+    home:'Home',
+    about:'About',
+    work:'Work',
+    contact:'Contact me'
 }

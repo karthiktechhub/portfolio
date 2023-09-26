@@ -8,8 +8,8 @@ import { useState } from "react"
 const Navbar = () => {
     return (
         <div className="relative flex flex-col w-full h-full">
-            <div className=" flex w-full h-full justify-between px-3 pt-3">
-                <div className="collapse sm:visible">
+            <div className=" flex w-full h-full justify-center sm:justify-between px-1 pt-1 sm:px-3 sm:pt-3">
+                <div className="hidden sm:block">
                     <Image src='/svgs/logo.svg' width={35} height={35} alt=""/>
                 </div>
                 <div className="flex">

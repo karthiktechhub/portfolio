@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer components {
+    svgfill {
+        filter: invert(92%) sepia(3%) saturate(1860%) hue-rotate(194deg) brightness(107%) contrast(95%);
+    }
+} */
+
+.svg-fill {
+    filter: invert(92%) sepia(3%) saturate(1860%) hue-rotate(194deg) brightness(107%) contrast(95%);
+
+}
