@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import localFont from 'next/font/local'
+import ParticleContainer from '@/components/ui/ParticleContainer'
 const inter = localFont({
   src: 'fonts/Virgil.woff2'
 })
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <ParticleContainer />
         <div className='bg-slate-100'>
         <div className='relative h-screen'>
         <div className='absolute h-16 w-full top-0 left-0'>
