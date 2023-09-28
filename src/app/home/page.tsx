@@ -1,9 +1,10 @@
+'use client'
 import Image from "next/image";
 
 export default function Home() {
     return (
         <>
-        <main className='container mx-auto flex relative'>
+        <main className='flex'>
             <div className="w-full pl-9">
                 <div className="text-6xl sm:text-7xl pt-16 tracking flex flex-col">
                     <div>
@@ -26,9 +27,6 @@ export default function Home() {
                 </div>
             </div>
         </main>
-            <div className="scale-0 sm:scale-100 absolute right-0 top-1/2">
-                hero section
-            </div>
         </>
     )
 }

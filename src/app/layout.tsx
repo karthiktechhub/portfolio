@@ -26,7 +26,7 @@ export default function RootLayout({
         <div className='absolute h-16 w-full top-0 left-0'>
           <Navbar/>
         </div>
-        <div className='p-2 h-full pt-20 overflow-hidden'>
+        <div className='container mx-auto p-2 h-full pt-20 overflow-hidden'>
           {children}
         </div>
         </div>
