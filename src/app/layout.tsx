@@ -21,12 +21,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ParticleContainer />
-        <div className='bg-slate-100'>
+        <div className='bg-slate-50'>
         <div className='relative h-screen'>
         <div className='absolute h-16 w-full top-0 left-0'>
           <Navbar/>
         </div>
-        <div className='container mx-auto p-2 h-full pt-20 overflow-hidden'>
+        <div className='p-2 h-full pt-20 overflow-hidden'>
           {children}
         </div>
         </div>

@@ -2,13 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-    svgfill {
+
+
+@layer utilities {
+    
+    .svg-fill {
         filter: invert(92%) sepia(3%) saturate(1860%) hue-rotate(194deg) brightness(107%) contrast(95%);
     }
-} */
 
-.svg-fill {
-    filter: invert(92%) sepia(3%) saturate(1860%) hue-rotate(194deg) brightness(107%) contrast(95%);
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
 
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+    
 }
