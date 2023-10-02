@@ -11,7 +11,7 @@ const Menu = () => {
         <div className="flex gap-8 justify-between items-center group/top">
         {Object.keys(menuData).map((item) =>{
             return (
-                <div className="group flex flex-col">
+                <div className="group flex flex-col" key={item}>
                     <Link className='text-center' href={`/${item}`} >
                         {/* @ts-expect-error */}
                         {menuData[item]}

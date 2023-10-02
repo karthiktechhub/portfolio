@@ -18,7 +18,7 @@ const ParticleContainer = () => {
 
   return (
     <Particles
-    className='w-full h-full absolute translate-z-0'
+    className='w-full h-full absolute top-0'
     id='tsparticles' 
     init={particlesInit} 
     loaded={particlesLoaded} 
@@ -84,7 +84,7 @@ const ParticleContainer = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 60,
           },
           opacity: {
             value: 0.5,
