@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
 	return (
@@ -23,7 +24,10 @@ export default function Home() {
 						<div>Full Stack</div>
 						<div>Developer</div>
 					</div>
-					<div className="pt-7 pl-7 text-3xl flex gap-3">
+					<Link
+						href="/contact"
+						className="pt-7 pl-7 text-3xl flex gap-3 w-fit hover:scale-105"
+					>
 						<span>Hire me</span>
 						<Image
 							src="/lines/arrow.svg"
@@ -31,7 +35,7 @@ export default function Home() {
 							height={30}
 							alt=""
 						/>
-					</div>
+					</Link>
 				</div>
 			</div>
 		</>

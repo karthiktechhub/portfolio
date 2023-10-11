@@ -28,7 +28,7 @@ export default function About() {
 					<div>
 						<Underline mid />
 					</div>
-					<div className="flex gap-5 flex-wrap content-start items-start">
+					<div className="flex gap-5 flex-wrap content-start items-start justify-center">
 						<div>HTML</div>
 						<div></div>
 						<div>CSS</div>
